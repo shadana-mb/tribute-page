@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: calibri;
+    font-size: 1.2em;
+    border: none;
+    padding: 0;
+    background-color: #c2b7b6;
+  }
+  h1 {
+    margin-top: 8rem;
+    font-family: 'Lucida Sans';
+    font-size: 3rem;
+      }
+  h1, #subtitle {
+    text-align: center;
+  }
+  img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  #img-caption{
+    font-size: 0.8em;
+    font-family: tahoma;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  #img-div {
+    margin: 4rem 6rem;
+    background-color: #e0d8d7;
+    padding: 2rem 0 0.5rem 0;
+  }
+  .date{
+    font-weight: 650;
+  }
+  .date::after{
+    content: " ......";
+    font-weight: 400;
+  }
+  ul {
+    list-style: none;
+    padding: 10px 0;
+  }
+  li {
+    padding: 10px;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin: 4rem auto;
+  }
+  #tribute-info {
+    width: 70%;
+    margin: 0 auto;
+  }
+  #epitaph {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    text-decoration: italic;
+  }
+  #external-link {
+    margin: 0 auto;
+    font-weight: 480;
+    padding: 4rem;
+  }
+  #tribute-link {
+    color: white;
+    text-decoration: none;
+    
+  }
+  #tribute-link:hover {
+    color: #7d372e;
+  }
